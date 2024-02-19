@@ -17,14 +17,14 @@ body{
     border-radius: 18px;
 }
 .signup-btn button{
-    background-color: red;
+    background-color: #d62300;
     color: #ffff;
     border: none;
     padding: 15px;
     border-radius: 60px;
 }
 .pay-btn{
-    background-color: red;
+    background-color: #502314;
     color: #ffff;
     border: none;
     padding: 15px 25px;
@@ -61,3 +61,37 @@ body{
     background-color: #f5ebdc;
 }
 
+.footer-main{
+    background-color: rgb(74, 30, 30);
+    padding: 5px 0px 5px 0px;
+    color: white;
+    text-align: center;
+}
+.text-p p{
+    padding-top: 15px;
+    
+}
+.text-p p a{
+    color: white;
+    
+}
+
+.footer-last{
+    background-color: rgb(255, 237, 231);
+}
+.foot-main-area{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 15px;
+    padding-top: 20px;
+    color: brown;
+}
+
+
+@media screen and (max-width:1200px){
+    #par-1{
+        font-size: 30px;
+        
+    }
+}
