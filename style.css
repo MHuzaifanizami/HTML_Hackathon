@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5ebdc;
+}
+
+/* ...........................navbar start..................  */
+
+.logo img{
+    width: 30%;
+}
+.sign-btn{
+    border-radius: 18px;
+}
+.signup-btn button{
+    background-color: red;
+    color: #ffff;
+    border: none;
+    padding: 15px;
+    border-radius: 60px;
+}
+.pay-btn{
+    background-color: red;
+    color: #ffff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 60px;
+}
+
+.nav-container{
+    border-bottom: 1px solid #ccc;
+    
+    background-color: #f5ebdc;
+}
+
+.nav-sec{
+   background-color: #f5ebdc;
+}
+
+.btn-bar i{
+    display: none;
+}
+
+
+@media (max-width:810px){
+
+    .signup-sec button{
+        display: none;
+    }
+.btn-bar i{
+    display: block;
+}
+
+}
+
+.hero-box{
+    background-color: #f5ebdc;
+}
+
